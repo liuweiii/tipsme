@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/radioGroupSelectStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonSelectStatusTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3498db"
+            android:button="@null"
+            android:singleLine="true"
+            android:text="未进行"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/design_navigation_icon_padding"
+            android:textAlignment="center" />
+        <RadioButton
+            android:id="@+id/radioButtonSelectStatusDoing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff27ae60"
+            android:button="@null"
+            android:singleLine="true"
+            android:text="进行中"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/design_navigation_icon_padding"
+            android:textAlignment="center" />
+        <RadioButton
+            android:id="@+id/radioButtonSelectStatusDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff7f8c8d"
+            android:button="@null"
+            android:singleLine="true"
+            android:text="完 成"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/design_navigation_icon_padding"
+            android:textAlignment="center" />
+    </RadioGroup>
+</RelativeLayout>
